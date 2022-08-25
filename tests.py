@@ -109,3 +109,9 @@ if __name__ == '__main__':
         print(separator)
         testdata = runPerformaceTest(functionalAlgorithms)
         renderGraphs(testdata)
+
+
+
+
+
+
