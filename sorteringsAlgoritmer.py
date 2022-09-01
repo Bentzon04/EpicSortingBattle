@@ -42,7 +42,7 @@ def selectionSort(items):
         for j in range(ind, len(items)):
             if items[j] < items[min_index]:
                 min_index= j
-
+#dette gør items[ind] bytter plads med items[minindex]
         (items[ind],items[min_index])= (items[min_index], items[ind])
         print(items)
 
@@ -52,7 +52,7 @@ def selectionSort(items):
 def insertionSort(items):
     for i in range(1, len(items)):
         key=items[i]
-
+#flytter elementer som er størrer end key, den flytter den en højere end den var før
         j=i-1
         while j >= 0 and key< items[j]:
            items[j+1]=items[j]
